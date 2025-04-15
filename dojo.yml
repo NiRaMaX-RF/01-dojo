@@ -27,3 +27,175 @@ modules:
         dojo: intro-to-cybersecurity
         module: integrated-security
         challenge: cimg-screenshot-win
+
+  - import:
+      dojo: program-security
+      module: shellcode-injection
+
+  - import:
+      dojo: program-security
+      module: memory-errors
+
+  - id: return-oriented-programming
+    name: Return Oriented Programming
+    description: |
+      Picture yourself as a digital maestro, orchestrating a symphony of code in a vast digital realm.
+      However, there’s a twist: you don’t get to pen down your own notes.
+      Instead, you're given a legacy of existing code snippets, scattered across the system.
+      This is the essence of Return Oriented Programming (ROP) exploits! Using nothing but the remnants of the system’s own code, you craft a cunning composition that dances to your own tune, bypassing modern security measures with elegance and stealth.
+
+      Each snippet is like a musical phrase, ending in a "return" instruction, whisking you off to the next snippet in your clandestine concerto.
+      With each leap and bound, you weave a nefarious narrative, circumventing security checks and executing unauthorized actions, all while under the unsuspecting nose of the system’s defenses.
+
+      ROP is not just a hack; it’s a masterpiece of unauthorized orchestration, a ballet of borrowed instructions, choreographed with precision to achieve your clandestine objectives.
+      With ROP, you step into a realm where every byte is a beat, and every return is a rhythm, embarking on an exhilarating journey of exploitation and discovery.
+
+    resources:
+    - name: "Return Oriented Programming: Introduction"
+      type: lecture
+      video: El8-vMDJ1zY
+      playlist: PL-ymxv0nOtqo0fRmVHxeOoKHX6ncNWp06
+      slides: 1OM8gd6oqiFl2tU6G-ydiCfkNhgUTNKDFoYz-g2IIwHg
+    - name: "Return Oriented Programming: Binary Lego"
+      type: lecture
+      video: L0gzNhbnOUA
+      playlist: PL-ymxv0nOtqo0fRmVHxeOoKHX6ncNWp06
+      slides: 1axSooHyjCJulwGNrhYM2GyjWJBSxTAg9Ia9Jpw9gW6s
+    - name: "Return Oriented Programming: Techniques"
+      type: lecture
+      video: OVkObKS0gOo
+      playlist: PL-ymxv0nOtqo0fRmVHxeOoKHX6ncNWp06
+      slides: 1x7PASDmpjPDXvkD9HmZ2wC2JJNT8lHCkZTYcDQ9CjAk
+    - name: "Return Oriented Programming: Complications"
+      type: lecture
+      video: Iq2IFCKDpKc
+      playlist: PL-ymxv0nOtqo0fRmVHxeOoKHX6ncNWp06
+      slides: 12_ymnKrYPUD1rJz6tauS2oNw45eWivhYMWfUzsnOeHM
+    
+    challenges:
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-1-0
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-1-1
+        
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-3-0
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-3-1
+        
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-4-0
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-4-1
+        
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-5-0
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-5-1
+        
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-6-0
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-6-1
+        
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-7-0
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-7-1
+        
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-8-0
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-8-1
+        
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-9-0
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-9-1
+        
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-10-0
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-10-1
+        
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-11-0
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-11-1
+        
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-12-0
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-12-1
+        
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-13-0
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-13-1
+        
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-14-0
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-14-1
+        
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-15-0
+    - import:
+        dojo: program-security
+        module: return-oriented-programming
+        challenge: level-15-1
+        
