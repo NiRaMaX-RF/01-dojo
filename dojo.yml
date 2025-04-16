@@ -2,8 +2,6 @@ id: 01-dojo
 
 name: "01: Intermediate Stuff"
 
-type: hidden
-
 modules:
 
   - import:
