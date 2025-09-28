@@ -28,11 +28,7 @@ modules:
 
   - import:
       dojo: program-security
-      module: shellcode-injection
-
-  - import:
-      dojo: program-security
-      module: memory-errors
+      module: program-security
 
   - id: return-oriented-programming
     name: Return Oriented Programming
